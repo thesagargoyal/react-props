@@ -1,13 +1,84 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: rgb(214, 248, 248);
+}
+
+h1{
+  background-color: white;
+  color: rgb(189, 184, 184);
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card_category{
+  font-size: 1.5rem;
+}
+
+.card_title{
+  font-size: 3rem;
+}
+
+button{
+  font-size: 1.5rem;
+}
+
+.card_image{
+  height: 34rem;
+  width: 34rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.card{
+  background-color: white;
+  margin: 2rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 0px 10px 28px #888888;
+}
+
+.cards{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.btn{
+  color:rgb(189, 184, 184);
+  background-color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1px solid rgb(189, 184, 184);
+}
+
+.center{
+  padding: .5rem;
+}
+
+.card_info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 351px) {
+  .card_image {
+    height: 24rem;
+    width: 24rem;
+  }
 }
